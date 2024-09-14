@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+ 
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   
+}
+
+.ADDS{
+    width: 100%;
+    
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+  
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+        
+}
+
+.adds-h3{
+    font-size: 10px;
+}
+
+.img-div-h1{
+    font-size: 30px;
+}
+.img-div-h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.img-div{
+    width: 100%;
+    height:100%;
+    /* border: 1px solid red; */
+    
+    background-image: url(assets/images/download.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.slider{
+   
+    width: 100%;
+    /* height:20%; */
+    background-color:black;
+    margin-top: 10px;
+}
+
+.bottom-div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+.bottom-heading{
+    text-align: center;
+    color: white;
+   
+}
+.bottom-heading-cont{
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    
+}
+.box{
+    width: 100%;
+  
+    color: white;
+    padding: 10px;
+    display: flex;
+    
+    align-items: center;
+   
+}
+.enquiry-div{
+    width: 100%;
+    
+    background-color: black;
+    
+}
+
+.ENQUIRY-h3{
+
+text-align: center; 
+font-size: 6vw;
+color: white;
+padding: 10px;
+}
+
+.form{
+    width: 80%;
+
+    position: relative;
+    left: 30px;
+   
+    
+}
+fieldset{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   font-size: 15px;
+   text-align: center;
+   padding: 20px;
+border-radius: 10px;
+
+
+}
+
+.Enquiry{
+  width: 150px;
+  position: relative;
+  left: 70px;
+  
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+.footer{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(56, 55, 55);
+    margin-top: 15px;
+}
+
+.footer-h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    
+
+}
+span{
+   color: rgba(128, 255, 0, 0.637);
+}
+
+.footer-div{
+    width: 100%;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.597);
+   
+
+
+}
+
+.footer-box-1{
+    width: 100%;
+    
+    padding: 10px;
+    margin-top: 15px;
+    
+    color: rgb(246, 245, 245);
+    text-align: center;
+   
+}
+
+
+
+
+
+@media (min-width:1024px){
+    .main{
+        width: 100%;
+        height: 100%;
+        
+      
+    
+    }
+    .navbar-nav{
+        width: 50%;
+      display: flex;
+      justify-content: space-around;
+       /* border: 1px solid black; */
+   }
+
+   .akash{
+    width: 60%;
+    /* border: 1px solid red; */
+
+    font-size:medium;
+  
+    
+   }
+   .div{
+    width: 100%;
+    height: 100%;
+   }
+ 
+
+
+.img-div{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    font-size: 30px;
+
+    
+}
+
+.img-div-h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-weight: 800;
+   text-shadow: 1px 5px 10px black;
+}
+.img-div-h3{
+    font-size: 40px;
+}
+
+.slider{
+    position: relative;
+    left: 130px;
+    width: 80%;
+    /* height:30%; */
+    background-color: brown;
+    margin-top: 20px;
+}
+
+/*  */
+.bottom-div{
+     width: 100%;
+     /* height: 100%; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.bottom-heading-cont{
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+}
+
+   
+.box{
+    width: 45%;
+    height: 50px;
+    /* border: 1px solid red; */
+    padding: 0;
+   margin: 10px;
+ 
+}
+
+P{
+    padding: 15px;
+}
+
+.h-2{
+    font-size: 50px;
+}
+.h-2:hover{
+    text-shadow: 2px 5px 8px;
+
+}
+.ENQUIRY-h3{
+    font-size: 50px;
+    text-shadow: 1px 2px 8px red;
+    
+}
+
+.Enquiry{
+    width: 150px;
+    position: relative;
+    left: 110px;
+    
+  }
+.form{
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 150px;
+   
+    
+}
+fieldset{
+    width:30% ;
+    display: flex;
+}
+
+
+.footer{
+    width: 100%;
+  
+    background-color: rgba(16, 33, 16, 0.934);
+}
+
+.footer-h2{
+    width: 100%;
+  
+}
+
+.footer-div{
+    width: 100%;
+    /* height: 90%; */
+ 
+  
+   
+    display: flex;
+
+    flex-direction: row;
+    /* border: 2px solid rgb(116, 14, 242); */
+    
+}
+.footer-box-1{
+    width: 100%;
+     /* height: 100%;  */
+    
+
+    margin: 10px;
+    
+}
+
+
+
+
+
+
+
+}
+
+
+
+ 
+
+
